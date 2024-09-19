@@ -1,0 +1,11 @@
+.archive {
+    margin: 20px 0;
+
+    a {
+        color: $dark-gray;
+
+        &:hover {
+            color: darken($color: $dark-gray, $amount: 10%);
+        }
+    }
+}

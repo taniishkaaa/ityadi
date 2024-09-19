@@ -1,0 +1,31 @@
+.card {
+  // margin-bottom: 30px;
+  margin-right: 30px;
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  color: $brown;
+}
+
+.card-body {
+  padding-left: 0;
+}
+
+.card-title {
+  font-size: 2rem;
+  color: $dark-gray;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+}
+
+ul.tags {
+  padding: 0;
+  display: inline-flex;
+  list-style: none;
+
+  li {
+    margin-right: 10px;
+  }
+}

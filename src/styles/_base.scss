@@ -1,0 +1,41 @@
+.container {
+  padding: 0 80px;
+}
+
+body {
+  background-color: $white;
+  font-family: $site-font;
+  color: $brown;
+  line-height: 1.25;
+}
+
+h2,
+h4 {
+  // margin-bottom: 20px;
+  text-align: left;
+  color: $dark-gray;
+}
+
+h3 {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+a {
+  color: $brown;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($color: $brown, $amount: 10%);
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}

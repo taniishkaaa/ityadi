@@ -1,0 +1,45 @@
+header {
+    // display: flex;
+    // flex-direction: column;
+    // align-items: flex-start;
+    // padding: 20px;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+        font-size: 2.5rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: $dark-gray;
+        text-transform: uppercase;
+    }
+
+    svg {
+        width: 2rem;
+        height: 2rem;
+        fill: $dark-gray;
+    }
+}
+
+.lower {
+
+    .nav {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a {
+        // font-size: 1rem;
+        padding-left: 0;
+        color: $brown;
+    }
+
+    a:hover {
+        color: darken($color: $brown, $amount: 10%);
+    }
+}

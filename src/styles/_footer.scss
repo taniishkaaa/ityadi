@@ -1,0 +1,13 @@
+.site-footer {
+    margin: 20px 0;
+    text-align: center;
+    color: $dark-gray;
+
+    a {
+        color: $dark-gray;
+
+        &:hover {
+            color: darken($color: $dark-gray, $amount: 10%);
+        }
+    }
+}
